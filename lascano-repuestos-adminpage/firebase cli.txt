@@ -1,0 +1,4 @@
+Necesitas Firebase CLI (una herramienta de línea de comandos) para alojar tu sitio con Firebase Hosting.
+
+Ejecuta el siguiente comando de npm para instalar la CLI o actualizar a su versión más reciente.
+npm install -g firebase-tools
