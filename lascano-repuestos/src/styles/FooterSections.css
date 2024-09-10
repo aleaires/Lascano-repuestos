@@ -1,0 +1,40 @@
+.footer-sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Espacio entre columnas */
+  }
+  
+  .footer-section {
+    flex: 1 1 calc(25% - 1rem); /* Ajusta el tamaño de las columnas */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .widget-title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .address-info i {
+    margin-right: 0.5rem;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .form-control {
+    flex: 1;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
